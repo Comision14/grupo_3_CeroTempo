@@ -1,0 +1,69 @@
+.main-panel-admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:30px 0;
+}
+
+.main-panel-admin p {
+    text-align: center;
+    font-size: 25px;
+    width: 300px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.main-panel-admin div a {
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    
+}
+.btn-admin {
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn-admin:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+.btn-admin a:hover {
+    color: white;
+}
+.btn-create {
+    border: 3px solid black;
+}
+.btn-create:hover{
+    background-color: black;
+}
+.btn-edit {
+    border: 3px solid var(--orangeLogo);
+}
+.btn-edit:hover {
+    background-color: var(--orangeLogo);
+}
+.panel-logo {
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px black solid;
+    
+}
+.panel-logo img {
+    margin-top: 15px;
+    width: 600px;
+    height: 260px;
+}
+
+@media (max-width:  425px) {
+    .main-panel-admin div {
+        display: flex;
+        flex-direction: column;
+    }
+    .panel-logo img {
+        width: 300px;
+        height: 130px;
+    }
+}
