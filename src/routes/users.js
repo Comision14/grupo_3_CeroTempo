@@ -12,8 +12,4 @@ router.get('/register', register);
 
 router.get('/login', login);
 
-<<<<<<<< HEAD:CeroTempo-Site/src/routes/users.js
 module.exports = router;
-========
-module.exports = router;
->>>>>>>> develop:src/routes/users.js
